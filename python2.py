@@ -8,7 +8,7 @@ for key,value in employees.items():
     print("name: " + key)
     print("job: "+ value)
 
-with open("girl_boy_names_2004.csv","r") as name_csv:
+with open("data.csv","r") as name_csv:
     lines = name_csv.readlines()
 
 for i in lines:
